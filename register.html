@@ -4,8 +4,33 @@
     <title>Registes form</title>
 </head>
 <body>
-    <form>
-        
+    
+
+    <h1>Form</h1>
+    <form method="GET">
+        First name: <input type="text" name="firstname"><br>
+        Last name: <input type="text" name="lastname"><br>
+        Email: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" min="5"><br>
+        Birtthday: <input type="date" name="birthday"><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        Pets: <br>
+        <input type="checkbox" name="cat">cats<br>
+        <input type="checkbox" name="dog">dogs<br>
+        Cars: <br>
+        <select>
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="audi" name="audi">Audi</option>
+        </select><br>
+
+
+
+        <input type="submit" value="Register">
+        <input type="reset">
+
+
 
 
     </form>
